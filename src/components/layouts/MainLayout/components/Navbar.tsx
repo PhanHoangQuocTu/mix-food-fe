@@ -49,7 +49,7 @@ const NavbarMobile = () => {
       <Sheet>
         <SheetTrigger asChild>
           <button>
-            <Icons.alignJustify width={24} height={24} />
+            <Icons.alignJustify className="text-primary-700" width={24} height={24} />
           </button>
         </SheetTrigger>
         <SheetContent isShowCloseIcon={false}>
