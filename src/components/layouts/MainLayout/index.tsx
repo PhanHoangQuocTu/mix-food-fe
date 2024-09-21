@@ -3,6 +3,9 @@
 import React from 'react';
 import { AppContextProvider } from '@/context/app.context';
 
+import Footer from './components/Footer';
+import Header from './components/Header';
+
 interface Props {
   children: React.ReactNode;
 }
@@ -10,9 +13,15 @@ interface Props {
 const MainLayout: React.FC<Props> = ({ children }) => {
   return (
     <AppContextProvider value={{}}>
-      <article className="relative min-h-screen w-full overflow-hidden text-clip">
-        <main className="relative min-h-screen">{children}</main>
-      </article>
+      <div>
+        <Header />
+
+        <article className="relative min-h-screen w-full overflow-hidden text-clip bg-gray-50">
+          <main className="relative min-h-screen">{children}</main>
+        </article>
+
+        <Footer />
+      </div>
     </AppContextProvider>
   );
 };

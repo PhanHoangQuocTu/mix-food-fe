@@ -1,3 +1,3 @@
-export const ROUTE = {
-  OVERVIEW: '/',
+export const ROUTES = {
+  HOME: '/',
 };

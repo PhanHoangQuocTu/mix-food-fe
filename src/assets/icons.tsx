@@ -1,8 +1,10 @@
 import { type ForwardRefExoticComponent, type RefAttributes, type SVGProps } from 'react';
 import {
+  AlignJustify,
   BadgeDollarSign,
   Bolt,
   ClipboardList,
+  Facebook,
   FolderGit2,
   GraduationCap,
   Home,
@@ -10,6 +12,7 @@ import {
   MenuSquare,
   Phone,
   User,
+  X,
 } from 'lucide-react';
 
 import briefcaseBusiness from './svg/briefcase-business.svg';
@@ -28,6 +31,9 @@ const IconList = {
   briefcaseBusiness,
   folderGit2: FolderGit2,
   phone: Phone,
+  facebook: Facebook,
+  x: X,
+  alignJustify: AlignJustify,
 };
 
 type SVGAttributes = Partial<SVGProps<SVGSVGElement>>;
