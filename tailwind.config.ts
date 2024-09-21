@@ -152,7 +152,7 @@ const config: Config = {
               '700': '#F27B35',
               '800': '#F26B1D',
               '900': '#F25C05',
-              DEFAULT: '#F2A97E',
+              DEFAULT: '#F25C05',
               foreground: '#F25C05',
             },
             foreground: {
@@ -167,7 +167,7 @@ const config: Config = {
               '800': '#FF9344',
               '900': '#F25C05',
               DEFAULT: '#F25C05',
-              foreground: '#FFFFE9',
+              foreground: '#FF9344',
             },
             background: {
               '50': '#F2E6DF',

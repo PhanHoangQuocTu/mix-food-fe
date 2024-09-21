@@ -91,7 +91,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--200, #313134);
+  background: var(--200, #f25c05);
 }
 
 @keyframes flicker {

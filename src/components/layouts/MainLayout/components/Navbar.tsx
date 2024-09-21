@@ -35,7 +35,7 @@ const NavbarDesktop = () => {
             key={item.name}
             label={item.name}
             href={item.href}
-            className="hover:text-primary-700 px-4 text-black/50 transition-all duration-200 ease-in-out active:scale-90"
+            className="hover:text-primary-700 px-4 text-white transition-all duration-300 ease-in-out active:scale-90"
           />
         ))}
       </ul>

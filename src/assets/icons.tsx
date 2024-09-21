@@ -3,14 +3,19 @@ import {
   AlignJustify,
   BadgeDollarSign,
   Bolt,
+  ChevronRight,
   ClipboardList,
   Facebook,
   FolderGit2,
   GraduationCap,
   Home,
+  Loader2,
   LogOut,
+  Mail,
+  MapPin,
   MenuSquare,
   Phone,
+  Star,
   User,
   X,
 } from 'lucide-react';
@@ -34,6 +39,11 @@ const IconList = {
   facebook: Facebook,
   x: X,
   alignJustify: AlignJustify,
+  chevronRight: ChevronRight,
+  spinner: Loader2,
+  star: Star,
+  mapPin: MapPin,
+  mail: Mail,
 };
 
 type SVGAttributes = Partial<SVGProps<SVGSVGElement>>;
